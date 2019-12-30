@@ -164,6 +164,7 @@ int Graphlnk::getDistance(int v1, int v2) {
 
 // 插入顶点
 bool Graphlnk::insertRouter(const int& vertex) {
+	cout << "明俊豪\n";
 	if (numRouters == maxVertices) // 顶点表满，不能插入
 		return false;
 	nodeTable[numRouters].identi = vertex; // 插入在表的最后
