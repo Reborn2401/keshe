@@ -43,7 +43,7 @@ void Graphlnk::inputGraph() {
 		cin >> e1; cin >> net;
 		if (insertRouter(e1))strncpy_s(nodeTable[numRouters - 1].net, net, 20); // 插入顶点
 	}
-
+	cout << "Ming Junhao\n";
 	cout << "请输入图的各边的信息：(路由器1，路由器2，距离)" << endl;
 	i = 0;
 	while (i < m) {
