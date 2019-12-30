@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="network topology definition.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="delete.cpp" />
+    <ClCompile Include="find.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="network topology.cpp" />
+    <ClCompile Include="table_def.cpp" />
+    <ClCompile Include="update.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Router.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{73243BC9-AC4D-420F-8358-ACC1005DE7A2}</ProjectGuid>
@@ -122,13 +137,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="Text.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="源.cpp" />
-    <ClCompile Include="源1.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
