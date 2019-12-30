@@ -28,6 +28,7 @@ r_table::~r_table()
 
 ostream& operator<<(ostream& out, router& r)
 {
+	cout << "liuhaohan";
 	edge* p = r.ed;
 	cout << "Â·ÓÉÆ÷±àºÅ£º" << r.identi << endl;
 	cout << "ÍøÂçºÅ£º" << r.net << endl;
