@@ -9,4 +9,5 @@ void f_table()//查找路由表
 	t = r_graph.get_t(id); if (t == NULL) { cout << "不存在该路由器\n"; return; }
 	cout << *t->get_rid() << endl;
 	cout << *t;
+	cout << "liu";
 }
