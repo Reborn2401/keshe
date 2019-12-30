@@ -19,6 +19,7 @@ void del_edge()//删除边
 	while (p2 != NULL) { if (r_graph.get_r(p2->router2)->identi == id2)break; p2 = p2->link; }
 	if (p2 != NULL) if (r_graph.removeEdge(i, j))cout << "删除成功！\n"; else cout << "删除失败！\n";
 	else cout << "没有到达该路由器的边！\n";
+	cout << "shenruijie";
 }
 
 void del_rou()//删除路由器顶点
